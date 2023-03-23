@@ -5,20 +5,20 @@
   --background-primary: #191724;
   --navbar-color: #26233a;
   --navbar-height: 60px;
-  --navbar-text-color: #dd6767;
+  --navbar-text-color: #7967dd;
   --navbar-link-color: #e0def4;
   --navbar-font: "Roboto";
   --input-text-color: #e0def4;
   --input-placeholder-color: white;
   --input-background-color: #1f1d2e;
-  --input-border-color: #7e3c3c;
+  --input-border-color: #eb6f92;
   --input-border-size: 1.3px;
   --navbar-logo-filter: none;
 }
 
 ::-webkit-input-placeholder {
   text-align: center;
-  font-family: "sans-serif";
+  font-family: "Roboto";
 }
 
 :-moz-placeholder {
@@ -109,7 +109,7 @@
 a {
   color: var(--navbar-link-color);
   text-decoration: none !important;
-  font-family: "sans-serif";
+  font-family: "Roboto";
 }
 
 a:hover {
@@ -119,7 +119,7 @@ a:hover {
 }
 
 .down {
-  background-color: rgb(154, 24, 24);
+  background-color: rgb(90, 24, 154);
   left: inherit !important;
   font-family: "Helvetica";
   background-color: var(--navbar-color);
@@ -274,7 +274,7 @@ ul li ul:hover {
 
 svg path,
 svg rect {
-  fill: #d12525;
+  fill: #eb6f92;
 }
 
 .connector {
